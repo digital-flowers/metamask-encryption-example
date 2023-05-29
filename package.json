@@ -5,12 +5,14 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify public/main -o public/dist/bundle.js"
+    "build": "browserify public/main -o public/dist/bundle.js",
+    "start": "http-server"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "browserify": "^7.0.0"
+    "browserify": "^7.0.0",
+    "http-server": "^14.1.1"
   },
   "dependencies": {
     "buffer": "^6.0.3",
